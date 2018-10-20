@@ -1,0 +1,107 @@
+@font-face
+{
+   font-family: 'samim';
+   src: url('fonts/Samim.eot');
+   src: url('fonts/Samim.eot?iefix') format('embedded-opentype'),
+        url('fonts/Samim.ttf') format('truetype');
+
+}
+body {
+  text-align: left;
+  direction: ltr;
+  background-color: #37474F;
+}
+*{
+font-family:'samim','FontAwesome','tahoma';
+}
+.pbox h4 , h2{
+  text-align: center;
+}
+
+.hr1 {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background: url('../img/hr1.png') no-repeat center center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.user_pic {
+    padding: 1px;
+    width: 25%;
+    height: 15%;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,.23);
+    border-radius: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.org-box {
+  margin-top: 7px;
+  background-color: #263238;
+  padding: 15px;
+  color: white;
+  border-radius: 1px;
+   box-shadow: 0 1px 2px rgba(0,0,0,.15);
+   font-size: 17px;
+}
+.box {
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  margin-left: 7px;
+  margin-top: 7px;
+  -webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+cursor: pointer;
+box-shadow: 0 1px 2px rgba(0,0,0,.15);
+border-radius: 1px;
+}
+.dontae-size {
+  width: 85%;
+}
+.pbox {
+  border: 1px solid white;
+  border-radius: 25px 0px 25px 0px ;
+  padding: 6px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.pbox:hover {
+  border: 1px solid white;
+  border-radius: 0px 40px 0px 40px;
+  padding: 6px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.icon-size { font-size:45px; }
+.orange { background-color: #FF9800; }
+.orange:hover { background-color: #FB8C00; }
+.light-green { background-color: #8BC34A; }
+.light-green:hover { background-color: #7CB342; }
+.light-blue { background-color: #03A9F4; }
+.light-blue:hover { background-color: #039BE5; }
+.red { background-color: #F44336; }
+.red:hover { background-color: #E53935; }
+.blue-grey { background-color: #607D8B; }
+.blue-grey:hover { background-color: #546E7A; }
+.brown { background-color: #795548; }
+.brown:hover { background-color: #6D4C41; }
+.teal { background-color: #009688; }
+.teal:hover { background-color: #00897B; }
+.hide { display: none; }
+
+@media only screen and (max-width: 768px) {
+  .user_pic {
+    width: 60%;
+    height: 40%;
+  }
+}
